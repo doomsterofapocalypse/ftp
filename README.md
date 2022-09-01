@@ -16,3 +16,9 @@ OPTIONS
     -V, --version                Print version information
     
     --help                       Print help information
+
+
+Example usage
+
+TCP transfer: start server: ftp.exe -m server -p 8000   
+TCP transfer: start client: ftp.exe -m client -f c:\\filestorage\\path -t -i <ipaddress> -p <dst port>
